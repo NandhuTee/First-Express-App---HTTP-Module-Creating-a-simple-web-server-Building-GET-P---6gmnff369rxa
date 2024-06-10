@@ -3,12 +3,6 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 dotenv.config();
-// src/index.js
-const app = require('./app');
-const dotenv = require('dotenv');
-const mongoose = require('mongoose');
-
-dotenv.config();
 
 const PORT = process.env.PORT || 3000; 
 // Using environment variable for PORT or fallback to 3000
